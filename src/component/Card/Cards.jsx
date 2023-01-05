@@ -27,9 +27,10 @@ export const Cards = () => {
         <div><img className='cardimg' alt='' src={item.img} /></div>
         <div className='infoBox'>
           <h3>{item.Title}</h3>
-          <div><span>{item.author}</span><span>21-5-2022</span></div>
 
-          <div><p>{item.desc}</p></div>
+          <div className='authdate'><span  className='auth'>{item.author}</span> | <span className='date'>21 Jul 2022</span></div>
+
+          <div className='description'><p>{item.desc}</p></div>
 
         </div>
 

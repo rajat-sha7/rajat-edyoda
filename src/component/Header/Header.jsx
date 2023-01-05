@@ -3,6 +3,8 @@ import React from 'react'
 import '../Header/Header.css'
 
 
+
+
 export const Header = () => {
   return (
     <div className='Header'>
@@ -14,7 +16,7 @@ export const Header = () => {
       <div className='list'>
         <div>Explore </div>
         <div>Categories</div>
-        {/* <div>v</div> */}
+        <div><i class="fa fa-sort-desc" aria-hidden="true"></i></div>
       </div>
 
     

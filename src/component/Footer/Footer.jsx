@@ -57,8 +57,9 @@ const Footer = () => {
          <p>India</p>
          
 
-         <p>hello@edyoda.com</p>
+         <p><i class="fa fa-envelope-o" aria-hidden="true"></i> hello@edyoda.com</p>
          <p>Learning Videos</p>
+         <p><i class="fa fa-map-marker" aria-hidden="true"></i>           <i class="fa fa-twitter" aria-hidden="true"></i>           <i class="fa fa-facebook-square" aria-hidden="true"></i>           <i class="fa fa-google-plus" aria-hidden="true"></i> </p>
          <p>© 2022</p>
          <p>zekeLabs Technologies Private Limited</p>
          </div>
