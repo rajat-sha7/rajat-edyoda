@@ -1,0 +1,50 @@
+.Footer{
+
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+    height: auto;
+    background-color: #172146;
+    padding: 80px 6%;
+    color: #fff;
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.Footer h4{
+    padding: 15px;
+    color: rgba(187, 186, 186, 0.5);
+    font-weight: 600;
+
+
+}
+
+
+
+.Footer p{
+    color: #fff;
+    font-weight: 200;
+    padding-left: 15px;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+
+
+
+@media screen and (max-width:700px){
+
+     .Footer{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+     } 
+
+     .Footer div{
+        width: 100%;
+        flex-wrap: wrap;
+     }
+
+
+}
